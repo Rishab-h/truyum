@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="./style/style.css">
+    <title>Cart Notification</title>
+</head>
+
+<body>
+    <header>
+        <span id="title-truyum">truYum</span>
+        <img id="logo" src="images/truyum-logo-light.png"></img>
+        
+         <nav class="navigation-cart">
+            <a class="nav-link-cart" href="./cart.html">Cart</a>
+        </nav>
+        <nav class="navigation">
+            <a class="nav-link" href="./menu-item-list-customer.html">Menu</a>
+        </nav>
+    </header>
+    <div id="content">       
+        <h2 id="mh3">Cart</h2>
+        <p class = "custom-notif">Item removed from Cart successfully</p>
+        <table id="table">
+            <tr>
+                <th class="aleft">Name</th>
+                <th class="aleft">Free Delivery</th>
+                <th class="aright">Price</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td class="aleft">Sandwich</td>
+                <td class="aleft">Yes</td>
+                <td class="aright">Rs. 99</td>
+                <td><a href="./cart-notification.html">Delete</a></td>
+            </tr>
+            <tr>
+                <td class="aleft">Burger</td>
+                <td class="aleft">No</td>
+                <td class="aright">Rs. 129</td>
+                <td><a href="./cart-notification.html">Delete</a></td>
+            </tr>
+            <tr id="total-field">
+                <td></td>
+                <td class="aleft">Total</td>
+                <td class="aright">Rs. 228</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <div class="copy">Copyright &copy; 2019</div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
